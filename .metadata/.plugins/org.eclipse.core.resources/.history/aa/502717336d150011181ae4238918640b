@@ -1,0 +1,14 @@
+package Day02;
+import Day01.Employee;  // Error
+
+public class DefaultTestOutSidePackage
+{
+
+	public static void main(String[] args)
+	{
+		Employee e1 = new Employee(); // Error
+		e1.dispaly();					// Error
+
+	}
+
+}

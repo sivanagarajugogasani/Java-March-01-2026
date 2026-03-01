@@ -1,0 +1,14 @@
+package Day01.PrivateModifierDemo;
+
+import Day01.Employee;
+
+public class DefaultDemo {
+
+	public static void main(String[] args) 
+	{
+		Employee e = new Employee();
+		e.display();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package Day01;
+
+public class Person
+{
+	
+		private public int age=25;
+		
+		public int getAge()
+		{
+			return age;
+		}
+	
+}

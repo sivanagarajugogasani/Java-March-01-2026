@@ -1,0 +1,16 @@
+package Day01;
+
+// Encapsulation demo
+	
+public class Account {
+	
+	int a=100;
+	
+	public static void main(String[] args)
+	{
+		Account obj = new Account();
+		System.out.println(obj.a);
+
+	}
+
+}

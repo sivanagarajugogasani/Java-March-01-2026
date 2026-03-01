@@ -1,0 +1,12 @@
+package Day01;
+
+public class PrivateDemo
+{
+	public static void main(String[] args)
+	{
+		Person p = new Person();
+		//System.out.println(p.age); 		// ❌ ERROR (Cannot access private field)
+		System.out.println(p.getAge());     // ✅ Correct way
+		
+	}
+}

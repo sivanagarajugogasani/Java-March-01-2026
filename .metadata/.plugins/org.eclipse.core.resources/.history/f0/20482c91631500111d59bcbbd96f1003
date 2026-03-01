@@ -1,0 +1,23 @@
+package Day01;
+
+class Human
+{
+	int age=20;
+	String name="Naveen";
+
+
+
+}
+
+public class EncapsulationDemo
+{
+
+	public static void main(String[] args)
+	{
+		Human h = new Human();
+		System.out.println(h.age);
+		System.out.println(h.name);
+		
+	}
+
+}
